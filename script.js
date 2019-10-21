@@ -23,7 +23,7 @@ $.ajax({
  $(".wind-speed").text("Wind Speed: " + response.wind.speed);
 //  $(".uv-index").text("UV Index: " + response.)
 });
-var queryURL3 = "https://api.openweathermap.org/data/2.5/forecast/daily?q=" + userInput + ",us&units=imperial&APPID=" + APIKey2;
+var queryURL3 = "https://api.openweathermap.org/data/2.5/forecast/daily?q=Denver,us&units=imperial&APPID=" + APIKey2;
 var userInput = $(".form-control").val();
  $.ajax({
     url: queryURL3,
